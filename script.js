@@ -1,7 +1,5 @@
-// Año en footer
 document.getElementById("year").textContent = new Date().getFullYear();
 
-// Menú móvil
 const menuBtn = document.getElementById("menuBtn");
 const mobileNav = document.getElementById("mobileNav");
 
@@ -18,7 +16,6 @@ mobileNav?.querySelectorAll("a").forEach(a => {
   });
 });
 
-// Form -> abre WhatsApp con mensaje listo
 const form = document.getElementById("leadForm");
 form?.addEventListener("submit", (e) => {
   e.preventDefault();
